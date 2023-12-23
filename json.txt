@@ -1,0 +1,7 @@
+import pandas as pd
+
+!pip install pandas
+
+file = pd.read_json(r"C:\Users\JESUS\Desktop\bebo.json")
+
+file.to_csv(r"C:\Users\JESUS\Desktop\bebo.csv", index=False)
